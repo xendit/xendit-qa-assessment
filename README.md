@@ -19,19 +19,17 @@ This assessment is created with the objective to validate the automation scripti
 **How to use the existing framework**
 
 1. Clone/ download the complete framework repository from the following github path - https://github.com/xendit/xendit-qa-assessment
-2. Unzip the folder and use it for generating the test scenarios
+2.The folder names and its purpose is highlighted below
 
-*The folder names and its purpose is highlighted below*
-
--Folder name: *features*-
+Folder name: *features*
 
 Purpose : Contains the feature file where the cucumber scripts are written using gherkin syntax. Use this file to update the feature that are going to be automated using ‘Scenario Outline’,’given’, ‘When’ and ‘Then’ keywords
 
--Folder name : *shared-objects*-
+Folder name : *shared-objects*
 
 Purpose : Maintain all shared objects within the scripts. such as test data, environment details,etc. This can be used if required, not necessarily to be updated 
 
- -Folder name: *step-definitions*-
+ Folder name: *step-definitions*
  
 Purpose : Step definitions file( function definitions). A Step Definition is a Java/javascript method with an expression that links it to one or more Gherkin steps. When Cucumber executes a Gherkin step in a scenario, it will look for a matching step definition to execute.
 	
@@ -42,21 +40,22 @@ Purpose : Step definitions file( function definitions). A Step Definition is a J
 
 **Evaluation criteria**
 	
--We would use the following criteria to evaluate the assessment-
--*Test scenario writing skills*- - positive, negative and boundary conditions
+We would use the following criteria to evaluate the assessment
 
--*Automation script generation*- - Usage of proper pass and fail conditions, report generation, screenshot capturing
+*Test scenario writing skills* : positive, negative and boundary conditions
 
--*Solutioning skills*- - Reaching the solutions by overcoming technical challenges using alternate method and work around solutions
+*Automation script generation* : Usage of proper pass and fail conditions, report generation, screenshot capturing
+
+*Solutioning skills* : Reaching the solutions by overcoming technical challenges using alternate method and work around solutions
 
 **Tools to be used**
 	
 The current automation framework is built using the below mentioned technologies. You may use any of the below mentioned technologies to develop the automation scripts. Along with these, you may use any of the java based technologies as well.
 
--*Cucumber-
+*Cucumber
 
--Selenium / Cypress-
+Selenium / Cypress
 
--Javascripts / Java-
+Javascripts / Java
 
--Cucumber-js*-
+Cucumber-js*

@@ -19,6 +19,7 @@ This assessment is created with the objective to validate the automation scripti
 **How to use the existing framework**
 
 1. Clone/ download the complete framework repository from the following github path - https://github.com/xendit/xendit-qa-assessment
+
 2.The folder names and its purpose is highlighted below
 
 Folder name: *features*
@@ -52,10 +53,10 @@ We would use the following criteria to evaluate the assessment
 	
 The current automation framework is built using the below mentioned technologies. You may use any of the below mentioned technologies to develop the automation scripts. Along with these, you may use any of the java based technologies as well.
 
-*Cucumber
+*Cucumber*
 
-Selenium / Cypress
+*Selenium / Cypress*
 
-Javascripts / Java
+*Javascripts / Java*
 
-Cucumber-js*
+*Cucumber-js*

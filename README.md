@@ -1,6 +1,5 @@
 
 # Xendit QA Assessment Instructions
-**Instructions on QA assessment**
 
 *Please read the following instructions carefully to understand the assessment expectations, how to use the existing framework, evaluation criteria and tools to be used*
 
@@ -20,7 +19,7 @@ This assessment is created with the objective to validate the automation scripti
 
 1. Clone/ download the complete framework repository from the following github path - https://github.com/xendit/xendit-qa-assessment
 
-2.The folder names and its purpose is highlighted below
+2. The folder names and its purpose is highlighted below
 
 Folder name: *features*
 

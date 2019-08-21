@@ -1,0 +1,172 @@
+package VikingsTest;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CalculatorTestDemo extends CalculatorActions {
+	
+	public CalculatorTestDemo(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String a[]) {
+		loadLog4jPropertyFile();
+		verifySubtractionPositiveScenario("5", "2", "–");
+		verifySubtractionNegativeScenario("5", "2", "–");
+		verifyDivisionNegativeScenario("5", "0", "/");
+		verifyDivisionPositiveScenario("5", "2", "/");
+		verifyCancelButton("5", "2", "AC");
+	}
+
+	
+	/*
+	 * Author : Peerasab_Kembhavi
+	 * Test case Name: Verify positive scenario for Subtraction in the Calculator page i.e. 5-2
+	 * Description : Here can perform other negative scenarios as well i.e. 0-5, 5-0
+	 */
+	public static void verifySubtractionPositiveScenario(String a, String b,
+			String operator) {
+		
+		log.info("The method verifySubtractionPositiveScenario() starts here...");
+		navigateToCalculator();
+		WebElement ele = driver.findElement(By.xpath("//*[text()='" + operator
+				+ "']"));
+		try {
+			if (ele.isDisplayed() && ele.isEnabled() && !a.isEmpty()
+					&& !b.isEmpty() && !operator.isEmpty()) {
+				String actualSubtractionValue = CalculatorResultPositiveScenario(
+						a, b, operator);
+				Assert.assertEquals("The values are miss matching",
+						actualSubtractionValue.trim(), "3");
+			}
+		} catch (Exception e) {
+			log.error("Subtraction button is not displayed or not enabled"
+					+ e.getMessage());
+		}
+		driver.close();
+		log.info("The method verifySubtractionPositiveScenario() ends here...");
+	}
+
+	
+	/*
+	 * Author : Peerasab_Kembhavi
+	 * Test case Name: Verify negative scenario for Subtraction in the Calculator page i.e. -5-2
+	 * Description : Here can perform other negative scenarios as well i.e. -0-5, -5-0
+	 */
+	public static void verifySubtractionNegativeScenario(String a, String b,
+			String operator) {
+		log.info("The method verifySubtractionNegativeScenario() starts here...");
+		navigateToCalculator();
+		WebElement ele = driver.findElement(By.xpath("//*[text()='" + operator
+				+ "']"));
+		try {
+			if (ele.isDisplayed() && ele.isEnabled() && !a.isEmpty()
+					&& !b.isEmpty() && !operator.isEmpty()) {
+				String actualSubtractionValue = CalculatorResultNegativeScenario(
+						a, b, operator);
+				Assert.assertEquals("The values are miss matching",
+						actualSubtractionValue.trim(), "-7");
+
+			}
+		} catch (Exception e) {
+			log.error("Subtraction button is not displayed or not enabled"
+					+ e.getMessage());
+		}
+
+		driver.close();
+		log.info("The method verifySubtractionNegativeScenario() ends here...");
+	}
+
+	/*
+	 * Author : Peerasab_Kembhavi
+	 * Test case Name: Verify Negative scenario for Division in the Calculator page i.e. 5/0
+	 */
+	public static void verifyDivisionNegativeScenario(String a, String b,
+			String operator) {
+		log.info("The method verifyDivisionNegativeScenario() starts here...");
+		navigateToCalculator();
+		WebElement ele = driver.findElement(By.xpath("//*[text()='" + operator
+				+ "']"));
+		try {
+			if (ele.isDisplayed() && ele.isEnabled() && !a.isEmpty()
+					&& !b.isEmpty() && !operator.isEmpty()) {
+				String actualSubtractionValue = CalculatorResultPositiveScenario(
+						a, b, operator);
+				Assert.assertEquals("The values are miss matching",
+						actualSubtractionValue.trim(), "Error");
+
+			}
+		} catch (Exception e) {
+			log.error("Division button is not displayed or not enabled"
+					+ e.getMessage());
+		}
+
+		driver.close();
+		log.info("The method verifyDivisionNegativeScenario() ends here...");
+	}
+
+	/*
+	 * Author : Peerasab_Kembhavi
+	 * Test case Name: Verify Positive scenario for Division in the Calculator page i.e. 5/2
+	 */
+	public static void verifyDivisionPositiveScenario(String a, String b,
+			String operator) {
+		log.info("The method verifyDivisionPositiveScenario() starts here...");
+		navigateToCalculator();
+		WebElement ele = driver.findElement(By.xpath("//*[text()='" + operator
+				+ "']"));
+		try {
+			if (ele.isDisplayed() && ele.isEnabled() && !a.isEmpty()
+					&& !b.isEmpty() && !operator.isEmpty()) {
+				String actualSubtractionValue = CalculatorResultPositiveScenario(
+						a, b, operator);
+				Assert.assertEquals("The values are miss matching",
+						actualSubtractionValue.trim(), "2.5");
+			}
+		} catch (Exception e) {
+			log.error("Division button is not displayed or not enabled"
+					+ e.getMessage());
+		}
+		driver.close();
+		log.info("The method verifyDivisionPositiveScenario() ends here...");
+	}
+
+	/*
+	 * Author : Peerasab_Kembhavi
+	 * Test case Name: Verify Cancel button in the Calculator page i.e. AC or CE
+	 */
+	public static void verifyCancelButton(String a, String b, String operator) {
+		log.info("The method verifyCancelButton() starts here...");
+		navigateToCalculator();
+		WebElement ele = driver.findElement(By.xpath("//*[text()='" + operator
+				+ "']"));
+		try {
+			if (ele.isDisplayed() && ele.isEnabled()) {
+				driver.findElement(
+						By.xpath("//div[@id='contentout']//div/span[text()='"
+								+ a + "']")).click();
+				driver.findElement(By.xpath("//*[text()='" + operator + "']"))
+						.click();
+				driver.findElement(
+						By.xpath("//div[@id='contentout']//div/span[text()='"
+								+ b + "']")).click();
+				driver.findElement(By.xpath("//*[text()='" + operator + "']"))
+						.click();
+				String actualOutputValue = driver.findElement(
+						By.xpath("//div[@id='sciOutPut']")).getText();
+				Assert.assertEquals("The values are miss matching",
+						actualOutputValue.trim(), "0");
+			}
+		} catch (Exception e) {
+			log.error("Cancel button(AC or CE) is not displayed or not enabled"
+					+ e.getMessage());
+		}
+		driver.close();
+		log.info("The method verifyCancelButton() ends here...");
+	}
+
+	
+	
+}

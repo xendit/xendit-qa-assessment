@@ -1,0 +1,68 @@
+package VikingsTest;
+
+import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CalculatorActions {
+
+	public static WebDriver driver;
+	protected static final Logger log = Logger
+			.getLogger(CalculatorDemo11.class);
+
+	public CalculatorActions(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public static void loadLog4jPropertyFile() {
+		PropertyConfigurator
+				.configure("C:\\Auto Salesforce\\SalesforceAutoDemo\\log4j.properties");
+		log.info("Log4j appender configuration is successful !!");
+	}
+
+	public static void navigateToCalculator() {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Auto Salesforce\\SalesforceAutoDemo\\Drivers\\chromedriver.exe");
+	 	driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to("https://www.calculator.net");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+
+	public static String CalculatorResultNegativeScenario(String a, String b,
+			String operator) {
+		driver.findElement(By.xpath("//*[text()='" + operator + "']")).click();
+		driver.findElement(
+				By.xpath("//div[@id='contentout']//div/span[text()='" + a
+						+ "']")).click();
+		driver.findElement(By.xpath("//*[text()='" + operator + "']")).click();
+		driver.findElement(
+				By.xpath("//div[@id='contentout']//div/span[text()='" + b
+						+ "']")).click();
+		driver.findElement(By.xpath("//*[text()='=']")).click();
+		String actualOutputValue = driver.findElement(
+				By.xpath("//div[@id='sciOutPut']")).getText();
+		return actualOutputValue;
+	}
+
+	public static String CalculatorResultPositiveScenario(String a, String b,
+			String operator) {
+
+		driver.findElement(
+				By.xpath("//div[@id='contentout']//div/span[text()='" + a
+						+ "']")).click();
+		driver.findElement(By.xpath("//*[text()='" + operator + "']")).click();
+		driver.findElement(
+				By.xpath("//div[@id='contentout']//div/span[text()='" + b
+						+ "']")).click();
+		driver.findElement(By.xpath("//*[text()='=']")).click();
+		String actualOutputValue = driver.findElement(
+				By.xpath("//div[@id='sciOutPut']")).getText();
+		return actualOutputValue;
+	}
+}

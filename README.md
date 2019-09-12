@@ -11,11 +11,11 @@ The purpose of this assessment is to evaluate the technical competency of the ca
 
 This assessment is created with the objective to validate the automation scripting skills of the candidate. Expectations from this assessment are the following
 
--Candidate shall come up with the different test scenarios - such as positive, negative and boundary values-
+*- Candidate shall come up with the different test scenarios - such as positive, negative and boundary values*
 
--Candidate shall automate the generated test scenarios using any of the below mentioned automation tools sets-
+*- Candidate shall automate the generated test scenarios using any of the below mentioned automation tools sets*
 
--Automation script to be generated to perform calculation operation using the online calculator screen NOT by using the script variables(e.g develop script to open online calculator and click "1", "+" , "2" in the screen and validate the expected outcome is shown as "3") -
+*- Automation script to be generated to perform calculation operation using the online calculator screen NOT by using the script variables(e.g develop script to open online calculator and click "1", "+" , "2" in the screen and validate the expected outcome is shown as "3")*
 
 **How to use the existing framework**
 

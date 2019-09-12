@@ -15,6 +15,8 @@ This assessment is created with the objective to validate the automation scripti
 
 -Candidate shall automate the generated test scenarios using any of the below mentioned automation tools sets-
 
+-Automation script to be generated to perform calculation operation using the online calculator screen NOT by using the script variables(e.g develop script to open online calculator and click "1", "+" , "2" in the screen and validate the expected outcome is shown as "3") -
+
 **How to use the existing framework**
 
 1. Clone/ download the complete framework repository from the following github path - https://github.com/xendit/xendit-qa-assessment

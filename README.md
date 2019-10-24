@@ -1,13 +1,13 @@
 
 # Xendit QA Assessment Instructions
 
-*Please read the following instructions carefully to understand the assessment expectations, how to use the existing framework, evaluation criteria and tools to be used*
+*Please read the following instructions carefully to understand the purpose of the assessment, assessment expectations, evaluation criteria and tools to be used*
 
-**Purpose of the assessment**
+##**Purpose of the assessment**##
 
 The purpose of this assessment is to evaluate the technical competency of the candidate in QA automation field along with the analytical and problem solving skills
 
-**Assessment expectations**
+##**Assessment expectations**##
 
 This assessment is created with the objective to validate the automation scripting skills of the candidate. Expectations from this assessment are the following
 
@@ -17,30 +17,7 @@ This assessment is created with the objective to validate the automation scripti
 
 *- Automation script to be generated to perform calculation operation using the online calculator screen NOT by using the script variables(e.g develop script to open online calculator and click "1", "+" , "2" in the screen and validate the expected outcome is shown as "3")*
 
-**How to use the existing framework**
-
-1. Clone/ download the complete framework repository from the following github path - https://github.com/xendit/xendit-qa-assessment
-
-2. The folder names and its purpose is highlighted below
-
-Folder name: *features*
-
-Purpose : Contains the feature file where the cucumber scripts are written using gherkin syntax. Use this file to update the feature that are going to be automated using ‘Scenario Outline’,’given’, ‘When’ and ‘Then’ keywords
-
-Folder name : *shared-objects*
-
-Purpose : Maintain all shared objects within the scripts. such as test data, environment details,etc. This can be used if required, not necessarily to be updated 
-
- Folder name: *step-definitions*
- 
-Purpose : Step definitions file( function definitions). A Step Definition is a Java/javascript method with an expression that links it to one or more Gherkin steps. When Cucumber executes a Gherkin step in a scenario, it will look for a matching step definition to execute.
-	
-3. You may start building the automation scripts by updating the .feature file located under feature folder
-4. Write the detailed steps and associated methods in step definition file locate under step definition folder
-5. To execute and test the scripts, you may need node.js
-6. Online calculator application is built using iframe objects. So, automation scripts will have difficulty in identifying and capturing the object locators. You will need to find an alternate solution to automate the same
-
-**Evaluation criteria**
+##**Evaluation criteria**##
 	
 We would use the following criteria to evaluate the assessment
 
@@ -50,7 +27,7 @@ We would use the following criteria to evaluate the assessment
 
 *Solutioning skills* : Reaching the solutions by overcoming technical challenges using alternate method and work around solutions
 
-**Tools to be used**
+##**Tools to be used**##
 	
 The current automation framework is built using the below mentioned technologies. You may use any of the below mentioned technologies to develop the automation scripts. Along with these, you may use any of the java based technologies as well.
 
@@ -61,3 +38,33 @@ The current automation framework is built using the below mentioned technologies
 *Javascripts / Java*
 
 *Cucumber-js*
+
+
+*You may use your own automation framework to build the automation scripts. As well as, we have provided a sample automation framework to help you get started with the scripting. Follow the below instructions to download and use the Xendit automation framework*
+
+**How to use the existing framework**
+
+1. Clone/ download the complete framework repository from the following github path - https://github.com/xendit/xendit-qa-assessment
+
+2. You will find the following folders in the extracted folder. The names and its purpose are highlighted below
+
+	Folder name: *features*
+
+	Purpose : Contains the feature file where the cucumber scripts are written using gherkin syntax. Use this file to 	update the feature that are going to be automated using ‘Scenario Outline’,’given’, ‘When’ and ‘Then’ keywords
+
+	Folder name : *shared-objects*
+
+	Purpose : Maintain all shared objects within the scripts. such as test data, environment details,etc. This can be 	used if required, not necessarily to be updated 
+
+ 	Folder name: *step-definitions*
+ 
+	Purpose : Step definitions file( function definitions). A Step Definition is a Java/javascript method with an 		expression that links it to one or more Gherkin steps. When Cucumber executes a Gherkin step in a scenario, it will 	look for a matching step definition to execute.
+	
+3. You may start building the automation scripts by updating the .feature file located under feature folder
+4. Write the detailed steps and associated methods in step definition file locate under step definition folder
+5. Use nodejs to execute and test the scripts
+6. Please note that the "online calculator" application is built using iframe objects. So, you may have find difficulties in finding the object locators and handling it in the scripts. Take this up as a challange and find an alternate solution to automate the same.
+
+Thanks for reading the instruction!
+
+Happy coding and best wishes!

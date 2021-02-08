@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\ekans\eclipse-workspace\xendit-qa-assesment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC1">TC1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC10">TC10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC10Compare">TC10Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC11">TC11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC11Compare">TC11Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC12">TC12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC12Compare">TC12Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC13">TC13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC13Compare">TC13Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC1Compare">TC1Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC2">TC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC2Compare">TC2Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC3">TC3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC3Compare">TC3Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC4">TC4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC4Compare">TC4Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC5">TC5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="TC5Compare">TC5Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="TC6">TC6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="TC6Compare">TC6Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="TC7">TC7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="TC7Compare">TC7Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="TC8">TC8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="TC8Compare">TC8Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC9">TC9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="TC9Compare">TC9Compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.addition" hash-for-method="openOnlineCalculator">openOnlineCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.division" hash-for-method="openOnlineCalculator">openOnlineCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="xendit.xendit_qa_assesment.substraction" hash-for-method="openOnlineCalculator">openOnlineCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">xendit.xendit_qa_assesment.division</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10">
+                  </a> <!-- TC10 -->
+                  <span class="method-name">TC10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10Compare">
+                  </a> <!-- TC10Compare -->
+                  <span class="method-name">TC10Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11">
+                  </a> <!-- TC11 -->
+                  <span class="method-name">TC11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11Compare">
+                  </a> <!-- TC11Compare -->
+                  <span class="method-name">TC11Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12">
+                  </a> <!-- TC12 -->
+                  <span class="method-name">TC12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12Compare">
+                  </a> <!-- TC12Compare -->
+                  <span class="method-name">TC12Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13">
+                  </a> <!-- TC13 -->
+                  <span class="method-name">TC13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13Compare">
+                  </a> <!-- TC13Compare -->
+                  <span class="method-name">TC13Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9">
+                  </a> <!-- TC9 -->
+                  <span class="method-name">TC9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9Compare">
+                  </a> <!-- TC9Compare -->
+                  <span class="method-name">TC9Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openOnlineCalculator">
+                  </a> <!-- openOnlineCalculator -->
+                  <span class="method-name">openOnlineCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">xendit.xendit_qa_assesment.addition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1">
+                  </a> <!-- TC1 -->
+                  <span class="method-name">TC1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1Compare">
+                  </a> <!-- TC1Compare -->
+                  <span class="method-name">TC1Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2">
+                  </a> <!-- TC2 -->
+                  <span class="method-name">TC2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2Compare">
+                  </a> <!-- TC2Compare -->
+                  <span class="method-name">TC2Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3">
+                  </a> <!-- TC3 -->
+                  <span class="method-name">TC3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3Compare">
+                  </a> <!-- TC3Compare -->
+                  <span class="method-name">TC3Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4">
+                  </a> <!-- TC4 -->
+                  <span class="method-name">TC4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4Compare">
+                  </a> <!-- TC4Compare -->
+                  <span class="method-name">TC4Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5">
+                  </a> <!-- TC5 -->
+                  <span class="method-name">TC5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5Compare">
+                  </a> <!-- TC5Compare -->
+                  <span class="method-name">TC5Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openOnlineCalculator">
+                  </a> <!-- openOnlineCalculator -->
+                  <span class="method-name">openOnlineCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">xendit.xendit_qa_assesment.substraction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC6">
+                  </a> <!-- TC6 -->
+                  <span class="method-name">TC6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC6Compare">
+                  </a> <!-- TC6Compare -->
+                  <span class="method-name">TC6Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7">
+                  </a> <!-- TC7 -->
+                  <span class="method-name">TC7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7Compare">
+                  </a> <!-- TC7Compare -->
+                  <span class="method-name">TC7Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8">
+                  </a> <!-- TC8 -->
+                  <span class="method-name">TC8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8Compare">
+                  </a> <!-- TC8Compare -->
+                  <span class="method-name">TC8Compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openOnlineCalculator">
+                  </a> <!-- openOnlineCalculator -->
+                  <span class="method-name">openOnlineCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ekans\eclipse-workspace\xendit-qa-assesment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;xendit.xendit_qa_assesment.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;xendit.xendit_qa_assesment.addition&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;xendit.xendit_qa_assesment.division&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;xendit.xendit_qa_assesment.substraction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openOnlineCalculator')
+data.setCell(0, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(0, 3, 15725);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openOnlineCalculator')
+data.setCell(1, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(1, 3, 15640);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'openOnlineCalculator')
+data.setCell(2, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(2, 3, 14877);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC2')
+data.setCell(3, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(3, 3, 1704);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC3')
+data.setCell(4, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(4, 3, 1641);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC4')
+data.setCell(5, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(5, 3, 1612);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC7')
+data.setCell(6, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(6, 3, 1588);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC1')
+data.setCell(7, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(7, 3, 1347);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC13')
+data.setCell(8, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(8, 3, 1309);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC5')
+data.setCell(9, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(9, 3, 1256);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC12')
+data.setCell(10, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(10, 3, 1240);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC6')
+data.setCell(11, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(11, 3, 1222);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC10')
+data.setCell(12, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(12, 3, 1217);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC11')
+data.setCell(13, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(13, 3, 1208);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC8')
+data.setCell(14, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(14, 3, 1046);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC9')
+data.setCell(15, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(15, 3, 872);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC1Compare')
+data.setCell(16, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(16, 3, 295);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC3Compare')
+data.setCell(17, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(17, 3, 140);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC4Compare')
+data.setCell(18, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(18, 3, 134);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC13Compare')
+data.setCell(19, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(19, 3, 134);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC11Compare')
+data.setCell(20, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(20, 3, 100);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC2Compare')
+data.setCell(21, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(21, 3, 92);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC8Compare')
+data.setCell(22, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(22, 3, 65);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC7Compare')
+data.setCell(23, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(23, 3, 56);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC6Compare')
+data.setCell(24, 2, 'xendit.xendit_qa_assesment.substraction')
+data.setCell(24, 3, 52);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC9Compare')
+data.setCell(25, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(25, 3, 51);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC10Compare')
+data.setCell(26, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(26, 3, 46);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TC5Compare')
+data.setCell(27, 2, 'xendit.xendit_qa_assesment.addition')
+data.setCell(27, 3, 39);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TC12Compare')
+data.setCell(28, 2, 'xendit.xendit_qa_assesment.division')
+data.setCell(28, 3, 39);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">xendit.xendit_qa_assesment.addition</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openOnlineCalculator</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC1</span>
+                <span class="method-start">16727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC1Compare</span>
+                <span class="method-start">18977 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC2</span>
+                <span class="method-start">19938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC2Compare</span>
+                <span class="method-start">22415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC3</span>
+                <span class="method-start">23004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC3Compare</span>
+                <span class="method-start">25501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC4</span>
+                <span class="method-start">26393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC4Compare</span>
+                <span class="method-start">28836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC5</span>
+                <span class="method-start">29790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC5Compare</span>
+                <span class="method-start">31856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">32653 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xendit.xendit_qa_assesment.division</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openOnlineCalculator</span>
+                <span class="method-start">33595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC9</span>
+                <span class="method-start">49032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC9Compare</span>
+                <span class="method-start">50552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC10</span>
+                <span class="method-start">51208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC10Compare</span>
+                <span class="method-start">53098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC11</span>
+                <span class="method-start">53589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC11Compare</span>
+                <span class="method-start">55526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC12</span>
+                <span class="method-start">56532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC12Compare</span>
+                <span class="method-start">58538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC13</span>
+                <span class="method-start">59360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC13Compare</span>
+                <span class="method-start">61529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">62252 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xendit.xendit_qa_assesment.substraction</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openOnlineCalculator</span>
+                <span class="method-start">62499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC6</span>
+                <span class="method-start">79158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC6Compare</span>
+                <span class="method-start">81092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC7</span>
+                <span class="method-start">81714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC7Compare</span>
+                <span class="method-start">83948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC8</span>
+                <span class="method-start">84723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC8Compare</span>
+                <span class="method-start">86616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">87166 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

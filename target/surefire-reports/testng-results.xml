@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87414" started-at="2021-02-08T14:02:03 IST" finished-at="2021-02-08T14:03:30 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="32896" started-at="2021-02-08T14:02:03 IST" finished-at="2021-02-08T14:02:36 IST">
+      <class name="xendit.xendit_qa_assesment.addition">
+        <test-method status="PASS" signature="openOnlineCalculator()[pri:1, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="openOnlineCalculator" duration-ms="15640" started-at="2021-02-08T14:02:03 IST" finished-at="2021-02-08T14:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openOnlineCalculator -->
+        <test-method status="PASS" signature="TC1()[pri:2, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC1" duration-ms="1347" started-at="2021-02-08T14:02:20 IST" finished-at="2021-02-08T14:02:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC1Compare()[pri:3, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC1Compare" duration-ms="295" started-at="2021-02-08T14:02:22 IST" finished-at="2021-02-08T14:02:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1Compare -->
+        <test-method status="PASS" signature="TC2()[pri:4, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC2" duration-ms="1704" started-at="2021-02-08T14:02:23 IST" finished-at="2021-02-08T14:02:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC2Compare()[pri:5, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC2Compare" duration-ms="92" started-at="2021-02-08T14:02:25 IST" finished-at="2021-02-08T14:02:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2Compare -->
+        <test-method status="PASS" signature="TC3()[pri:6, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC3" duration-ms="1641" started-at="2021-02-08T14:02:26 IST" finished-at="2021-02-08T14:02:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="TC3Compare()[pri:7, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC3Compare" duration-ms="140" started-at="2021-02-08T14:02:28 IST" finished-at="2021-02-08T14:02:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3Compare -->
+        <test-method status="PASS" signature="TC4()[pri:8, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC4" duration-ms="1612" started-at="2021-02-08T14:02:29 IST" finished-at="2021-02-08T14:02:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="PASS" signature="TC4Compare()[pri:9, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC4Compare" duration-ms="134" started-at="2021-02-08T14:02:32 IST" finished-at="2021-02-08T14:02:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4Compare -->
+        <test-method status="PASS" signature="TC5()[pri:10, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC5" duration-ms="1256" started-at="2021-02-08T14:02:33 IST" finished-at="2021-02-08T14:02:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method status="PASS" signature="TC5Compare()[pri:11, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="TC5Compare" duration-ms="39" started-at="2021-02-08T14:02:35 IST" finished-at="2021-02-08T14:02:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5Compare -->
+        <test-method status="PASS" signature="close()[pri:0, instance:xendit.xendit_qa_assesment.addition@6ab7a896]" name="close" is-config="true" duration-ms="175" started-at="2021-02-08T14:02:36 IST" finished-at="2021-02-08T14:02:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- xendit.xendit_qa_assesment.addition -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="28763" started-at="2021-02-08T14:02:36 IST" finished-at="2021-02-08T14:03:05 IST">
+      <class name="xendit.xendit_qa_assesment.division">
+        <test-method status="PASS" signature="openOnlineCalculator()[pri:1, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="openOnlineCalculator" duration-ms="14877" started-at="2021-02-08T14:02:36 IST" finished-at="2021-02-08T14:02:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openOnlineCalculator -->
+        <test-method status="PASS" signature="TC9()[pri:2, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC9" duration-ms="872" started-at="2021-02-08T14:02:52 IST" finished-at="2021-02-08T14:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9 -->
+        <test-method status="PASS" signature="TC9Compare()[pri:3, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC9Compare" duration-ms="51" started-at="2021-02-08T14:02:53 IST" finished-at="2021-02-08T14:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9Compare -->
+        <test-method status="PASS" signature="TC10()[pri:4, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC10" duration-ms="1217" started-at="2021-02-08T14:02:54 IST" finished-at="2021-02-08T14:02:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method status="PASS" signature="TC10Compare()[pri:5, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC10Compare" duration-ms="46" started-at="2021-02-08T14:02:56 IST" finished-at="2021-02-08T14:02:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10Compare -->
+        <test-method status="PASS" signature="TC11()[pri:6, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC11" duration-ms="1208" started-at="2021-02-08T14:02:56 IST" finished-at="2021-02-08T14:02:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+        <test-method status="PASS" signature="TC11Compare()[pri:7, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC11Compare" duration-ms="100" started-at="2021-02-08T14:02:58 IST" finished-at="2021-02-08T14:02:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11Compare -->
+        <test-method status="PASS" signature="TC12()[pri:8, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC12" duration-ms="1240" started-at="2021-02-08T14:02:59 IST" finished-at="2021-02-08T14:03:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12 -->
+        <test-method status="PASS" signature="TC12Compare()[pri:9, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC12Compare" duration-ms="39" started-at="2021-02-08T14:03:01 IST" finished-at="2021-02-08T14:03:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12Compare -->
+        <test-method status="PASS" signature="TC13()[pri:10, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC13" duration-ms="1309" started-at="2021-02-08T14:03:02 IST" finished-at="2021-02-08T14:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13 -->
+        <test-method status="PASS" signature="TC13Compare()[pri:11, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="TC13Compare" duration-ms="134" started-at="2021-02-08T14:03:04 IST" finished-at="2021-02-08T14:03:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13Compare -->
+        <test-method status="PASS" signature="close()[pri:0, instance:xendit.xendit_qa_assesment.division@79ad8b2f]" name="close" is-config="true" duration-ms="105" started-at="2021-02-08T14:03:05 IST" finished-at="2021-02-08T14:03:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- xendit.xendit_qa_assesment.division -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="24849" started-at="2021-02-08T14:03:05 IST" finished-at="2021-02-08T14:03:30 IST">
+      <class name="xendit.xendit_qa_assesment.substraction">
+        <test-method status="PASS" signature="openOnlineCalculator()[pri:1, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="openOnlineCalculator" duration-ms="15725" started-at="2021-02-08T14:03:05 IST" finished-at="2021-02-08T14:03:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openOnlineCalculator -->
+        <test-method status="PASS" signature="TC6()[pri:2, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="TC6" duration-ms="1222" started-at="2021-02-08T14:03:22 IST" finished-at="2021-02-08T14:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method status="PASS" signature="TC6Compare()[pri:3, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="TC6Compare" duration-ms="52" started-at="2021-02-08T14:03:24 IST" finished-at="2021-02-08T14:03:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6Compare -->
+        <test-method status="PASS" signature="TC7()[pri:4, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="TC7" duration-ms="1588" started-at="2021-02-08T14:03:25 IST" finished-at="2021-02-08T14:03:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method status="PASS" signature="TC7Compare()[pri:5, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="TC7Compare" duration-ms="56" started-at="2021-02-08T14:03:27 IST" finished-at="2021-02-08T14:03:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7Compare -->
+        <test-method status="PASS" signature="TC8()[pri:6, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="TC8" duration-ms="1046" started-at="2021-02-08T14:03:28 IST" finished-at="2021-02-08T14:03:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8 -->
+        <test-method status="PASS" signature="TC8Compare()[pri:7, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="TC8Compare" duration-ms="65" started-at="2021-02-08T14:03:29 IST" finished-at="2021-02-08T14:03:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8Compare -->
+        <test-method status="PASS" signature="close()[pri:0, instance:xendit.xendit_qa_assesment.substraction@7995092a]" name="close" is-config="true" duration-ms="180" started-at="2021-02-08T14:03:30 IST" finished-at="2021-02-08T14:03:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- xendit.xendit_qa_assesment.substraction -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
